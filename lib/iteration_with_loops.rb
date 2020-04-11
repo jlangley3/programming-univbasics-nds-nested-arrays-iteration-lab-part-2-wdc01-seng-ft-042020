@@ -6,7 +6,7 @@ def find_min_in_nested_arrays(src)
    lowest_temp = src[row_index].min
     
     end
-    find_min_in_nested_arrays << lowest_temp
+    
     row_index += 1
   end
   

@@ -5,9 +5,10 @@ def find_min_in_nested_arrays(src)
   while row_index < src.length do
    lowest_temp = src[row_index].min
     find_min_in_nested_arrays << lowest_temp
+    row_index += 1
     end
     
-    row_index += 1
+    
   end
   
 
